@@ -42,12 +42,3 @@
     "vendor/font-awesome/brands"
 ;
 
-body {
-  padding-bottom: 300px !important;
-}
-
-// 确保 footer 不会因为 position 而浮动
-footer {
-  position: static !important;
-  clear: both !important;
-}
