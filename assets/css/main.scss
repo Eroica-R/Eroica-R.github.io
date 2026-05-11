@@ -41,3 +41,20 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+main[role="main"] {
+  margin-bottom: 250px !important;
+}
+
+footer {
+  position: relative !important;
+  margin-top: 0 !important;
+  background: #fff !important;
+  z-index: 100 !important;
+}
+
+footer .sitemap-wrapper,
+footer .sitemap {
+  position: relative;
+  background: inherit;
+}
