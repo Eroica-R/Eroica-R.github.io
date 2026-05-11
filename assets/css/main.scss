@@ -42,19 +42,12 @@
     "vendor/font-awesome/brands"
 ;
 
-main[role="main"] {
-  margin-bottom: 250px !important;
+body {
+  padding-bottom: 300px !important;
 }
 
+// 确保 footer 不会因为 position 而浮动
 footer {
-  position: relative !important;
-  margin-top: 0 !important;
-  background: #fff !important;
-  z-index: 100 !important;
-}
-
-footer .sitemap-wrapper,
-footer .sitemap {
-  position: relative;
-  background: inherit;
+  position: static !important;
+  clear: both !important;
 }
